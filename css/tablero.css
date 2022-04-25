@@ -1,0 +1,142 @@
+body,
+html {
+  height: 99%;
+  background: #000;
+}
+
+#ball {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(255, 7, 234);
+  box-shadow: inset -5px -5px 5px rgba(0, 0, 0, .6), 15px 15px 2px rgba(0, 0, 0, .04);
+  position: absolute;
+  -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+.bar {
+  width: 20px;
+  height: 100px;
+  background-color: #eeff00;
+  box-shadow: inset -5px -5px 5px rgba(0, 0, 0, .6), 15px 15px 2px rgba(0, 0, 0, .04);
+
+}
+
+#bar1 {
+  top: 20px;
+  float: left;
+  position: absolute;
+}
+
+#bar2 {
+  top: 20px;
+  right: 0px;
+  position: absolute;
+}
+
+#line {
+  width: 50%;
+  border-right: #fff dashed 5px;
+  height: 100%;
+}
+
+#circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 3px white;
+  overflow: hidden;
+  margin-top: -30%;
+  margin-left: 855px
+}
+
+
+h1 {
+  color: white;
+}
+
+
+/*Estilos de Modal*/
+#tabal__posiciones {
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 750px;
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#tabal__posiciones h2 {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.izquierda__cuadro {
+  
+  margin-top: 10px;
+}
+.izquierda__cuadro span{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.derecha__cuadro {
+  margin-top: 10px;
+}
+.count{
+  font-size: 50px;
+}
+
+.derecha__cuadro span{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+  font-size: 20px !important;
+  font-weight: 900 !important;
+}
+
+.tabla__final{
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 750px;
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tabla__final:hover{
+  animation:  pulsate 1s ease-in-out;
+}
+
+
+
+.tabla__final h2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-weight: 600;
+}
+@keyframes pulsate{
+  0%{
+    box-shadow: 0 0 25px #5ddcff,
+    0 0 50px #4e00c2
+    ;
+  }
+}
+#vwinner{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.espcia{
+  margin-top: 80px;
+
+}
